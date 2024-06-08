@@ -1,0 +1,146 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    justify-content:flex-start;
+    gap:2px;
+    margin-left: 90px;
+}
+
+.img1:hover{
+    filter: brightness(0.1);
+   transform: scale(1);
+   -ms-zoom: 10;
+}
+
+
+.img2:hover{
+    filter: brightness(0.1);
+   transform: scale(1);
+   -ms-zoom: 10;
+
+}
+
+.img3:hover{
+    filter: brightness(0.1);
+   transform: scale(1);
+   -ms-zoom: 10;
+
+}
+
+.img4:hover{
+    filter: brightness(0.1);
+   transform: scale(1);
+   -ms-zoom: 10;
+
+}
+
+
+
+.img1{
+    background-image: url(../COA/fox.avif);
+    background-size: cover;
+    filter: brightness(0.7);
+    width: 293px;
+    height: 588px;
+    background-position: center;
+    transition: 1s;
+    border-color: black;
+
+}
+
+.img2{
+    background-image: url(../COA/whale.jpg);
+    background-size: cover;
+    filter: brightness(0.7);
+    width: 293px;
+    height: 587px;
+    background-position: center;
+    border-color: black;
+
+}
+
+.img3{
+    background-image: url(../COA/babbon.jpg);
+    background-size: cover;
+    filter: brightness(0.7);
+    width: 293px;
+    height: 587px;
+    background-position: center;
+    border-color: black;
+
+}
+
+.img4{
+    background-image: url(../COA/deer.jpg);
+    background-size: cover;
+    filter: brightness(0.7);
+    width: 293px;
+    height: 587px;
+    background-position: center;
+    border-color: black;
+
+}
+/* para1*/
+.container .img1 .para1{
+    color: white;
+    margin-top: 447px;
+    margin-left: 40px;
+}
+
+.container .img1 .para1 p{
+    margin-top: -20px;
+}
+.container .img1 .para1 h4{
+   font-size: 25px;
+   font-family: Sans-serif;
+}
+/*para2*/
+.container .img2 .para2{
+    color: white;
+    margin-top: 447px;
+    margin-left: 40px;
+}
+.container .img2 .para2 p{
+    margin-top: -20px;
+}
+.container .img2 .para2 h4{
+   font-size: 25px;
+   font-family: Sans-serif;
+}
+
+/*para3*/
+.container .img3 .para3{
+    color: white;
+    margin-top: 447px;
+    margin-left: 40px;
+}
+.container .img3 .para3 p{
+    margin-top: -20px;
+}
+.container .img3 .para3 h4{
+   font-size: 25px;
+   font-family: Sans-serif;
+}
+
+/*para4*/
+.container .img4 .para4{
+    color: white;
+    margin-top: 447px;
+    margin-left: 40px;
+}
+.container .img4 .para4 p{
+    margin-top: -20px;
+}
+.container .img4 .para4 h4{
+   font-size: 25px;
+   font-family: Sans-serif;
+}
+
+
+
+
